@@ -1,0 +1,77 @@
+body	{
+	margin: 0px;
+	font-family: "Times New Roman", 
+	Times, serif, cursive;
+	min-width: 600;
+	background-size: cover;
+	background-attachment: fixed;
+	
+	}
+
+
+/*TABLA CENTRAL DE COLOR BLANCO*/
+#table_c	{ 
+	width:800px; /*Tamaño de lo largo de la tabla central*/
+	height: 600px; /*Tamano de lo alto de la tabla centra*/
+ 	position:inherit;
+	background:#FFF; /*Color de Fondo dela Tabla Central*/
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:5px; /*Distacia del cuadro de la parte superior*/
+	padding:20px;/*marge del borde de la tabla */ 
+	}
+#table_c_pagos	{ 
+	width:800px; /*Tamaño de lo largo de la tabla central*/
+	height: 200px; /*Tamano de lo alto de la tabla centra*/
+ 	position:inherit;
+	background:#FFF; /*Color de Fondo dela Tabla Central*/
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:5px; /*Distacia del cuadro de la parte superior*/
+	padding:20px;/*marge del borde de la tabla */ 
+	}	
+	
+#imprimir_titulo{
+	color:#000; /*color de la letras*/
+	font-size:22px; /*Tamaño de las letras*/
+	font-weight: bold; /*Negrillas*/
+	
+	}
+#imprimir_sub_titulo{
+	color:#000; /*color de la letras*/
+	font-size:18px; /*Tamaño de las letras*/
+	font-weight: bold; /*Negrillas*/
+	text-decoration: underline; /*Subrayadas*/
+	}
+#imprimir_texto{
+	color:#000; /*color de la letras*/
+	font-size:14px; /*Tamaño de las letras*/
+	font-weight: bold; /*Negrillas*/
+	text-decoration: none; /*Subrayadas*/
+	}
+	
+#imprimir_texto_12{
+	color:#000; /*color de la letras*/
+	font-size:12px; /*Tamaño de las letras*/
+	text-decoration: none; /*Subrayadas*/
+	}	
+	
+#imprimir_pequeno{
+	color:#000; /*color de la letras*/
+	font-size:10px; /*Tamaño de las letras*/
+	text-decoration: none; /*Subrayadas*/
+	}
+
+#importante{
+	color:#F00;
+	font-family: sans-serif;
+	font-size:14px;
+	font-weight: bold;
+	
+	}
+	
+	p{ text-indent: 50px;
+	
+	
+	}
+

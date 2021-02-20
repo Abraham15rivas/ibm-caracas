@@ -1,0 +1,197 @@
+@charset "UTF-8";
+/*cuadro general del menu */
+ul.MenuBarHorizontal
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-size: 100%;
+	cursor: default;
+	width: auto;
+	font-family: verdana,arial; /*tipo de Letras*/
+	font-size:12px; /*Tamano de todas las letras*/
+	font-weight: bold; /*Negrillas*/
+	
+	
+}
+
+ul.MenuBarActive
+{
+	z-index: 1000;
+}
+/* tamaño de los cuadro del primer menu */
+ul.MenuBarHorizontal li
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-size: 100%;
+	position: relative;
+	text-align: center; /*centra las letras dentro del cuadro horizontales*/
+	cursor: pointer;
+	width: 11em; /*largo cuadro */
+	height:2.5em;/*Alto cuadro */
+	float: left;
+background: rgb(242,246,248); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 50%, rgba(181,198,208,1) 100%, rgba(224,239,249,1) 100%, rgba(181,198,208,1) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(242,246,248,1)), color-stop(50%,rgba(216,225,231,1)), color-stop(100%,rgba(181,198,208,1)), color-stop(100%,rgba(224,239,249,1)), color-stop(100%,rgba(181,198,208,1)));
+background: -webkit-linear-gradient(top, rgba(242,246,248,1) 0%,rgba(216,225,231,1) 50%,rgba(181,198,208,1) 100%,rgba(224,239,249,1) 100%,rgba(181,198,208,1) 100%);
+background: -o-linear-gradient(top, rgba(242,246,248,1) 0%,rgba(216,225,231,1) 50%,rgba(181,198,208,1) 100%,rgba(224,239,249,1) 100%,rgba(181,198,208,1) 100%);
+background: -ms-linear-gradient(top, rgba(242,246,248,1) 0%,rgba(216,225,231,1) 50%,rgba(181,198,208,1) 100%,rgba(224,239,249,1) 100%,rgba(181,198,208,1) 100%);
+background: linear-gradient(to bottom, rgba(242,246,248,1) 0%,rgba(216,225,231,1) 50%,rgba(181,198,208,1) 100%,rgba(224,239,249,1) 100%,rgba(181,198,208,1) 100%);
+-webkit-border-radius: 15px;/*Redondear el cuadro*/
+-moz-border-radius: 15px;/*Redondear el cuadro*/
+border-radius:15px;/*Redondear el cuadro*/
+
+}
+/* Tamaño de los submenu */
+ul.MenuBarHorizontal ul
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-size: 100%;
+	z-index: 1020;
+	cursor: default;
+	width: 11.8em;
+	position: absolute;
+	left: -1000em;
+	-webkit-border-radius: 15px;/*Redondear el cuadro*/
+-moz-border-radius: 15px;/*Redondear el cuadro*/
+border-radius:15px;/*Redondear el cuadro*/
+
+	
+	
+}
+/* */
+ul.MenuBarHorizontal ul.MenuBarSubmenuVisible
+{
+	left: auto;
+}
+/* tamaño del segundo menu  */
+ul.MenuBarHorizontal ul li
+{
+	width: 11.8em; /*Largo de los cuadro del Submenu*/
+	height: 2.0em; /*Alto de los cuadros de submenu*/
+	text-align:left; /*centra las letras dentro del cuadro verticales*/
+	
+	
+}
+/* */
+ul.MenuBarHorizontal ul ul
+{
+	position: absolute;
+	margin: -5% 0 0 95%;
+}
+/* Submenu that is showing with class designation MenuBarSubmenuVisible, we set left to 0 so it comes onto the screen */
+ul.MenuBarHorizontal ul.MenuBarSubmenuVisible ul.MenuBarSubmenuVisible
+{
+	left: auto;
+	top: 0;
+}
+
+
+/* cuadro desplegado cuando esta el clip sobre el boton */
+ul.MenuBarHorizontal ul
+{
+	border: opx solid #CCC; /*marge y color del marge del cuadro*/
+	
+	
+}
+
+/* Letras del menu principal */
+ul.MenuBarHorizontal a
+{
+	display: block;
+	cursor: pointer;
+	padding: 0.5em 0.75em;
+	color:#006;/*color del as letras*/
+	text-decoration: none;
+	background-color: -moz-linear-gradient(top, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 50%, rgba(181,198,208,1) 100%, rgba(224,239,249,1) 100%, rgba(181,198,208,1) 100%);
+background-color: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(242,246,248,1)), color-stop(50%,rgba(216,225,231,1)), color-stop(100%,rgba(181,198,208,1)), color-stop(100%,rgba(224,239,249,1)), color-stop(100%,rgba(181,198,208,1)));
+background-color: -webkit-linear-gradient(top, rgba(242,246,248,1) 0%,rgba(216,225,231,1) 50%,rgba(181,198,208,1) 100%,rgba(224,239,249,1) 100%,rgba(181,198,208,1) 100%);
+background-color: -o-linear-gradient(top, rgba(242,246,248,1) 0%,rgba(216,225,231,1) 50%,rgba(181,198,208,1) 100%,rgba(224,239,249,1) 100%,rgba(181,198,208,1) 100%);
+background-color: -ms-linear-gradient(top, rgba(242,246,248,1) 0%,rgba(216,225,231,1) 50%,rgba(181,198,208,1) 100%,rgba(224,239,249,1) 100%,rgba(181,198,208,1) 100%);
+background-color: linear-gradient(to bottom, rgba(242,246,248,1) 0%,rgba(216,225,231,1) 50%,rgba(181,198,208,1) 100%,rgba(224,239,249,1) 100%,rgba(181,198,208,1) 100%);
+	/*color del cuadro principal*/
+	-webkit-border-radius: 15px;/*Redondear el cuadro*/
+-moz-border-radius: 15px;/*Redondear el cuadro*/
+border-radius:15px;/*Redondear el cuadro*/
+}
+/* Menu items that have mouse over or focus have a blue background and white text */
+ul.MenuBarHorizontal a:hover, ul.MenuBarHorizontal a:focus
+{
+	
+	background-color: -moz-linear-gradient(top, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 50%, rgba(181,198,208,1) 100%, rgba(224,239,249,1) 100%, rgba(181,198,208,1) 100%);
+background-color: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(242,246,248,1)), color-stop(50%,rgba(216,225,231,1)), color-stop(100%,rgba(181,198,208,1)), color-stop(100%,rgba(224,239,249,1)), color-stop(100%,rgba(181,198,208,1)));
+background-color: -webkit-linear-gradient(top, rgba(242,246,248,1) 0%,rgba(216,225,231,1) 50%,rgba(181,198,208,1) 100%,rgba(224,239,249,1) 100%,rgba(181,198,208,1) 100%);
+background-color: -o-linear-gradient(top, rgba(242,246,248,1) 0%,rgba(216,225,231,1) 50%,rgba(181,198,208,1) 100%,rgba(224,239,249,1) 100%,rgba(181,198,208,1) 100%);
+background-color: -ms-linear-gradient(top, rgba(242,246,248,1) 0%,rgba(216,225,231,1) 50%,rgba(181,198,208,1) 100%,rgba(224,239,249,1) 100%,rgba(181,198,208,1) 100%);
+background-color: linear-gradient(to bottom, rgba(242,246,248,1) 0%,rgba(216,225,231,1) 50%,rgba(181,198,208,1) 100%,rgba(224,239,249,1) 100%,rgba(181,198,208,1) 100%);
+	color: #258dc8;
+}
+/*diseño de como se ve el cuadro cuando pasa el clip */
+ul.MenuBarHorizontal a.MenuBarItemHover, ul.MenuBarHorizontal a.MenuBarItemSubmenuHover, ul.MenuBarHorizontal a.MenuBarSubmenuVisible
+{
+background-color: rgb(182,224,38); /* Old browsers */
+background-color: -moz-linear-gradient(top, rgba(182,224,38,1) 0%, rgba(171,220,40,1) 100%); /* FF3.6+ */
+background-color: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(182,224,38,1)), color-stop(100%,rgba(171,220,40,1))); /* Chrome,Safari4+ */
+background-color: -webkit-linear-gradient(top, rgba(182,224,38,1) 0%,rgba(171,220,40,1) 100%); /* Chrome10+,Safari5.1+ */
+background-color: -o-linear-gradient(top, rgba(182,224,38,1) 0%,rgba(171,220,40,1) 100%); /* Opera 11.10+ */
+
+/*color del cuadro principal cuando esta el raton*/
+	color: #000;
+}
+
+/*  */
+ul.MenuBarHorizontal a.MenuBarItemSubmenu
+{
+	background-image: url(SpryMenuBarDown.gif);
+	background-repeat: no-repeat;
+	background-position: 95% 50%;
+}
+/* */
+ul.MenuBarHorizontal ul a.MenuBarItemSubmenu
+{
+	background-image: url(SpryMenuBarRight.gif);
+	background-repeat: no-repeat;
+	background-position: 95% 50%;
+}
+/*  */
+ul.MenuBarHorizontal a.MenuBarItemSubmenuHover
+{
+	background-image: url(SpryMenuBarDownHover.gif);
+	background-repeat: no-repeat;
+	background-position: 95% 50%;
+}
+/*  */
+ul.MenuBarHorizontal ul a.MenuBarItemSubmenuHover
+{
+	background-image: url(SpryMenuBarRightHover.gif);
+	background-repeat: no-repeat;
+	background-position: 95% 50%;
+}
+
+
+/*  */
+ul.MenuBarHorizontal iframe
+{
+	position: absolute;
+	z-index: 1010;
+	filter:alpha(opacity:0.1);
+}
+/*  */
+@media screen, projection
+{
+	ul.MenuBarHorizontal li.MenuBarItemIE
+	{
+		display: inline;
+		f\loat: left;
+		background-color: -moz-linear-gradient(top, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 50%, rgba(181,198,208,1) 100%, rgba(224,239,249,1) 100%, rgba(181,198,208,1) 100%);
+background-color: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(242,246,248,1)), color-stop(50%,rgba(216,225,231,1)), color-stop(100%,rgba(181,198,208,1)), color-stop(100%,rgba(224,239,249,1)), color-stop(100%,rgba(181,198,208,1)));
+background-color: -webkit-linear-gradient(top, rgba(242,246,248,1) 0%,rgba(216,225,231,1) 50%,rgba(181,198,208,1) 100%,rgba(224,239,249,1) 100%,rgba(181,198,208,1) 100%);
+background-color: -o-linear-gradient(top, rgba(242,246,248,1) 0%,rgba(216,225,231,1) 50%,rgba(181,198,208,1) 100%,rgba(224,239,249,1) 100%,rgba(181,198,208,1) 100%);
+background-color: -ms-linear-gradient(top, rgba(242,246,248,1) 0%,rgba(216,225,231,1) 50%,rgba(181,198,208,1) 100%,rgba(224,239,249,1) 100%,rgba(181,198,208,1) 100%);
+background-color: linear-gradient(to bottom, rgba(242,246,248,1) 0%,rgba(216,225,231,1) 50%,rgba(181,198,208,1) 100%,rgba(224,239,249,1) 100%,rgba(181,198,208,1) 100%);
+	}
+}
