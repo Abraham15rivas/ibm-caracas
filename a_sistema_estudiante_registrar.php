@@ -13,7 +13,7 @@
 <tr>
   <td valign="top"><table width="600" height="500"border="0" cellspacing="0" cellpadding="0" id="tabla_pie">
     <td align="center" valign="top"><br/>
-      <font id="titulo">Registro en SANECAD</font> <br />
+      <font id="titulo">Registro en SISCON</font> <br />
       <br />
       <font id="texto">Ingrese su usuario y contraseña</font><br/>
       <font id="texto">Portal Para Registrar <font color="#FF0000"> Estudiante</font></font><br/>
@@ -128,14 +128,17 @@
 <br />
 <br />
 <br />
-<a href="index.php">Desbloquear o Recuperar su clave de acceso de SANECAD</a><br />
+<a href="index.php">Desbloquear o Recuperar su clave de acceso de SISCON</a><br />
 </td>
 </tr>
 <tr>
-  <td align="left"><font id="texto">Atención al Usuario:<br />
-    sistempro.ca@gmail.com<br />
-    (0424) 268-8338<br />
-  </font></td>
+  <td align="left">
+    <font id="texto">
+        Atención al Usuario:<br />
+      (0424) 211-3891 - Edies Flores<br />
+      ibm.caracas@gmail.com<br />
+    </font>
+  </td>
 </tr>
 </table>
 </td>

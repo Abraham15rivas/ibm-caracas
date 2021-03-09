@@ -13,8 +13,8 @@
   <div class="AccordionPanel">
     <div class="AccordionPanel"></div>
     <div class="AccordionPanelContent">
-    	<br /><br /><font id="importante">SANECAD</font><br />
-        <font id="texto_p">SISTEMA AUTOMATIZADO NACIONAL DE EDUCACION CRISTIANA DE LAS ASAMBLEAS DE DIOS DE VENEZUELA</font>
+    	<br /><br /><font id="importante">SISCON</font><br />
+        <font id="texto_p">SISTEMA AUTOMATIZADO DE CONTROL DE NOTAS DEL INSTITUTO BIBLICO METROPOLITANO (IBM)</font>
     </div>
   </div>
   <div class="AccordionPanel">

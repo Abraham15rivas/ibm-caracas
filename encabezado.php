@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link rel="shortcut icon" type="image/x-icon" href="img/logo.png"/>
+<link rel="shortcut icon" type="image/x-icon" href="img/MINEC.png"/>
 <link href="estilos.css" rel="stylesheet" type="text/css" />
 <title>MINEC</title>
 </head>

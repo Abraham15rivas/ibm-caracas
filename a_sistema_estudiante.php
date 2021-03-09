@@ -19,7 +19,7 @@
   <tr>
     <td align="center" valign="top">
     	<br/>  
-		<font id="titulo">Ingrese a SANECAD</font> <br /><br />
+		<font id="titulo">Ingrese a SISCON</font> <br /><br />
         <font id="texto">Ingrese su usuario y contraseña</font><br/>
         <font id="texto">Sección Para estudiantes Registrado en<br />
         	 El LOS INSTITUTOS DE LAS ASAMBLEAS DE DIOS<br />
@@ -36,11 +36,11 @@
   </tr>
   <tr>
   		<td align="left">
-        <a href="index.php">Desbloquear o Recuperar su clave de acceso de SANECAD</a><br />
-         <font id="texto">
+        <a href="index.php">Desbloquear o Recuperar su clave de acceso de SISCON</a><br />
+        <font id="texto">
          Atención al Usuario:<br />
-		sistempro.ca@gmail.com<br />
-        (0424) 268-8338<br />
+        (0424) 211-3891 - Edies Flores<br />
+		    ibm.caracas@gmail.com<br />
         </font>
         
         </td>

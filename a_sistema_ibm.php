@@ -19,7 +19,7 @@
   <tr>
     <td align="center" valign="top">
     	<br/>  
-		<font id="titulo">Ingrese a SANECAD</font> <br /><br />
+		<font id="titulo">Ingrese a SISCON</font> <br /><br />
         <font id="texto">Ingrese su usuario y contraseña</font><br/>
         <font id="texto">Solo Personal <font color="#FF0000"> IBM</font></font><br/><br />
           
@@ -27,7 +27,7 @@
         <br />
         <br />
         <br />
-        <a href="index.php">Desbloquear o Recuperar su clave de acceso de SANECAD</a>
+        <a href="index.php">Desbloquear o Recuperar su clave de acceso de SISCON</a>
         <br />
        
         </td>  
@@ -36,8 +36,8 @@
   		<td align="left">
          <font id="texto">
          Atención al Usuario:<br />
-        (0424) 268-8338<br />
-		sistempro.ca@gmail.com<br />
+        (0424) 211-3891 - Edies Flores<br />
+		    ibm.caracas@gmail.com<br />
         </font>
         
         </td>

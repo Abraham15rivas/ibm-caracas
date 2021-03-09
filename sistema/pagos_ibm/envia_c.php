@@ -2,7 +2,7 @@
 	if(isset($_POST['asunto'])&&!empty($_POST['asunto'])&&
 	isset($_POST['mensaje'])&&!empty($_POST['mensaje']))
 {
-	$destino = "oswaldo.advisor@gmail.com";
+	$destino = "ibm.caracas@gmail.com";
 	$desde = "oswaldo@sistempro.net";
 	$asunto = $_POST['asunto'];
 	$mensaje = $_POST['mensaje'];
